@@ -1,0 +1,26 @@
+.imagen-encabezado {
+    width: 100%;
+    height: 100%;
+}
+.texto-encabezado {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 60px;
+    width: 65%;
+    text-align: left;
+}
+body {
+    max-width: 31%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;    
+}
+
+/*Establece el color de la letra de los a*/
+a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
