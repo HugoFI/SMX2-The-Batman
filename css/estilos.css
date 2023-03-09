@@ -13,12 +13,18 @@
     text-align: left;
 }
 body {
-    max-width: 31%;
+    max-width: 35%;
     margin: 0 auto;
     font-family: 'Quicksand', sans-serif;
-    font-family: 'Roboto Condensed', sans-serif;    
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: large;
 }
-
+.span {
+    color:red;
+}
+main {
+    
+}
 /*Establece el color de la letra de los a*/
 a {
     color: rgb(255, 0, 0);
