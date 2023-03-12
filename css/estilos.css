@@ -1,13 +1,10 @@
-.imagen-encabezado{
-    position: relative;
-    display: inline-block;
-    text-align: center;
+#encabezado-imagen{
     width: 100%;
     height: 100%;
 }
 .centrado{
     position: absolute;
-    top: 50%;
+    top: 61%;
     left: 50%;
     font-size: 60px;
     transform: translate(-50%, -50%);
@@ -15,17 +12,7 @@
     text-align: left;
     align-items: center;
     font-family: 'Quicksand', sans-serif;
-}
-.texto-encabezado{
-    position: absolute;
-    top: 60%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-    font-size: 60px;
-    width: 65%;
-    text-align: left;
-    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 .resto{
     max-width: 48%;
@@ -42,8 +29,36 @@ a {
     text-decoration: none;
 }
 @media screen and (max-width: 600px) {
-
+    .resto{
+        font-size: 14px;
+    }
+    .imagen-encabezado{
+        font-size: 27px;
+    }
 }
 .spoilers{
     font-family: 'Padyakke Expanded One', cursive;
+}
+#img1{
+    width: 100%;
+}
+#img2{
+    width: 100%;
+}
+#img3{
+    width: 100%;
+}
+table{
+    border-collapse: collapse;
+    max-width: 48%;
+    margin: 0 auto;
+    font-family: 'Quicksand', sans-serif;
+    background-color: rgba(255, 0, 0, 0.5);
+}  
+table td, table th {
+    border: 2px solid rgb(0, 0, 0);
+ }
+table img{
+    width: 50%;
+    align-items: center;
 }
